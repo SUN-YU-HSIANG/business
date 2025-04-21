@@ -1,0 +1,34 @@
+.not-found {
+  margin: 80px auto 40px;
+  padding: 0 20px;
+  max-width: 600px;
+  width: 0 100%;
+  text-align: center;
+}
+  .not-found-title {
+    font-size: 36px;
+    color: var(--primary-highlight);
+    margin: 34px 0 18px;
+  }
+  @media screen and (max-width: 992px) {
+  .not-found-title {
+      font-size: 24px;
+      line-height: 1.5;
+  }
+}
+  .not-found-btn {
+    text-align: center;
+  }
+  .not-found-btn > a {
+      display: inline-block;
+      border-radius: 50px;
+      background: #EEC67F;
+      padding: 16px 27px;
+      font-size: 24px;
+      color: var(--primary-highlight);
+    }
+  @media screen and (max-width: 992px) {
+  .not-found-btn > a {
+        font-size: 18px;
+  }
+}
